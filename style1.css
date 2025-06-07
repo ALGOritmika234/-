@@ -1,82 +1,75 @@
 body {
-    font-family: sans-serif;
-}
-
-h1 {
-    text-align: center;
-}
-
-p, li {
-    color: black;
-}
-
-footer p {
-    color: white;
-}
-
-footer a {
-    text-decoration: none;
-    color: #FF7B7B
-}
-
-body {
-     font-family: Arial, sans-serif;
-     background-color: #FFECEC;
-     color: #FF7B7B;
-     margin: 0;
-      padding: 0;
- } 
-
- header { 
-    background-color: transparent;
+    font-family: Arial, sans-serif;
+    background-color: #FFECEC;
+    color: #333;
     text-align: center;
     padding: 20px;
 }
 
-    h1 {
-    font-size: 3em;
-    margin-bottom: 10px; 
+/* Шрифты и заголовки */
+h1, h2 {
+    color: #FF7B7B;
+    font-weight: bold;
+}
+
+/* Оформление изображений */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* Внешний вид ссылок */
+a {
+    color: #FF7B7B;
+    text-decoration: none;
+}
+
+/* Отделение между разделами */
+div {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Нижняя часть страницы */
+footer {
+    background-color: #333; 
+    color: white; 
+    text-align: center; 
+    padding: 0px; 
+    position: fixed; 
+    bottom: 0; 
+    left: 0; 
+    right: 0;
+}
+.kk{
+    text-align: left;
+}
+.nav{}
+
+h1{
+    text:70px;
+}
+body { 
+    font-family: Arial; 
+    background-color: #FFECEC; 
+    color: #333; 
+    text-align: center; 
+    } 
+h1, h2 { 
     color: #FF7B7B; 
     } 
-
-    .container { 
-        max-width: 800px; 
-        margin: auto; 
-        padding: 20px; 
-    }
-    .card { 
-        background-color: white; 
-        border-radius: 10px; 
-        box-shadow: 0 0 10px rgba(0,0,0,.1); 
-        padding: 20px; 
-        margin-bottom: 20px; 
-    }
-
-    h2 { 
-        font-size: 1.5em; 
-        margin-bottom: 10px; 
-        text-align: center;  
+img { 
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 10px; 
+    margin-bottom: 10px; 
     } 
-
-    p { 
-        line-height: 1.6;
-    } 
-
-    ul { 
-        list-style-type: disc; 
-        padding-left: 20px; 
-        }
-
-    li { 
-        margin-bottom: 10px; 
-    } 
-    footer { 
-        background-color: #333;
-        color: white;
-        text-align: center;
-        padding: 1px;
-        position: fixed; 
-        bottom: 0; 
-        left: 0;
-        right: 0; 
-        }
+a { 
+    color: #FF7B7B; 
+    text-decoration: none; 
+}
